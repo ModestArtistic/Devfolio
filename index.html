@@ -1,23 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>  
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=\, initial-scale=1.0" />
     <title>DevFolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
   </head>
   <body>
     <div class="image">
       <div class="row fixed background7">
-        <a class="font" href="#">DevFolio</a>
-        <div class="font2">
-          <p>HOME</p>
-          <p>ABOUT</p>
-          <p>SERVICES</p>
-          <p>WORK</p>
-          <p>BLOG</p>
-          <p>CONTACT</p>
+        <div class="container">
+          
+          <a class="font" href="#">DevFolio</a>
+          <div class="back9 ">
+            <div class="background9"></div>
+            <div class="background9"></div>
+            <div class="background9"></div>
+          </div>
+        </div>
+        <div class="font2 hide mobile-column">
+          <a href="#home"
+            >HOME
+            <div class="line">&nbsp;</div>
+          </a>
+          <a href="#about"
+            >ABOUT
+            <div class="line">&nbsp;</div>
+          </a>
+          <a href="#services"
+            >SERVICES
+            <div class="line">&nbsp;</div>
+          </a>
+          <a href="#work"
+            >WORK
+            <div class="line">&nbsp;</div>
+          </a>
+          <a href="#blog"
+            >BLOG
+            <div class="line">&nbsp;</div>
+          </a>
+          <a href="#contact"
+            >CONTACT
+            <div class="line">&nbsp;</div>
+          </a>
         </div>
       </div>
       <div class="font3 white tac">
@@ -25,7 +52,7 @@
         <p>Web designer|</p>
       </div>
     </div>
-    <div class="background">
+    <div class="background" id="about">
       <div class="background2">
         <div>
           <div class="margin5">
@@ -70,12 +97,12 @@
           </div>
         </div>
       </div>
-      <div class="tac">
+      <div id="services" class="tac background">
         <h1>SERVICES</h1>
         <p class="margin9">Do one thing at a time, and do well.</p>
         <div class="background5 margin-auto"></div>
       </div>
-      <div class="row services-line">
+      <div class="row services-line mobile-column">
         <div class="background6 tac">
           <div class="tv margin-auto"><i class="fa-solid fa-tv"></i></div>
           <h1 class="margin9 SUBTITLE">WEB DESIGN</h1>
@@ -96,7 +123,7 @@
           </p>
         </div>
       </div>
-      <div class="row services-line">
+      <div class="row services-line mobile-column">
         <div class="background6 tac">
           <div class="tv margin-auto"><i class="fa-solid fa-mobile"></i></div>
           <h1 class="margin9 SUBTITLE">RESPONSIVE DESIGN</h1>
@@ -104,118 +131,358 @@
         </div>
 
         <div class="background6 tac">
-          <div class="tv margin-auto"><i class="fa-solid fa-paintbrush"></i></div>
+          <div class="tv margin-auto">
+            <i class="fa-solid fa-paintbrush"></i>
+          </div>
           <h1 class="margin9 SUBTITLE">GRAPHIC DESIGN</h1>
           <p>Experience is the mother of wisdom.</p>
         </div>
 
         <div class="background6 tac">
-          <div class="tv margin-auto"><i class="fa-solid fa-chart-simple"></i></div>
+          <div class="tv margin-auto">
+            <i class="fa-solid fa-chart-simple"></i>
+          </div>
           <h1 class="margin9 SUBTITLE">MARKETING SERVICES</h1>
           <p>Failure is the mother of success.</p>
         </div>
       </div>
     </div>
     <div class="image3">
-      <div class="row services-line" style="background-color: rgba(13, 100, 199, 0.5); width: 100%; height: 500px;">
-        <div class="white tac "><i class="fa-regular fa-circle-check stats"></i>
+      <div
+        class="row services-line"
+        style="
+          background-color: rgba(13, 100, 199, 0.5);
+          width: 100%;
+          height: 100%;
+        "
+      >
+        <div class="white tac">
+          <i class="fa-regular fa-circle-check stats"></i>
           <h1>500</h1>
           <p>WORKS COMPLETED</p>
         </div>
-        <div class="white tac "><i class="fa-regular fa-calendar stats"></i></i>
+        <div class="white tac">
+          <i class="fa-regular fa-calendar stats"></i>
           <h1>15</h1>
           <p>YEARS OF EXPERIENCE</p>
         </div>
-        <div class="white tac "><i class="fa-solid fa-users stats"></i>
+        <div class="white tac">
+          <i class="fa-solid fa-users stats"></i>
           <h1>600</h1>
           <p>TOTAL CLIENTS</p>
         </div>
-        <div class="white tac "><i class="fa-solid fa-medal stats"></i>
+        <div class="white tac">
+          <i class="fa-solid fa-medal stats"></i>
           <h1>40</h1>
           <p>AWARDS WON</p>
         </div>
       </div>
     </div>
-    <div class="background">
+    <div id="work" class="background">
       <div class="tac">
         <h1>PORTFOLIO</h1>
         <p class="margin9">Don't give up and don't give in.</p>
         <div class="background5 margin-auto"></div>
       </div>
-      <div class="row services-line">
+      <div class="row services-line mobile-column">
         <div class="background8">
-          <div class="margin-auto "><img class="image4" src="buoi11/work-1.jpg" alt=""></div>
-         <div class="padding row">
-          <div>
-
-            <h1 class="margin9 SUBTITLE">For man is man and master of his fate</h1>
-            <p><span style="color: #0078ff;">Web Design</span> / 18 Sep. 2019</p> 
+          <div class="margin-auto">
+            <img class="image4" src="/work-1.jpg" alt="" />
           </div>
-          <div style="width: 50%; text-align: right;"><i class="fa-solid fa-circle-plus font-a"></i></div>
-         </div>  
+          <div class="padding row">
+            <div class="PORTFOLIO">
+              <h1 class="margin9 SUBTITLE">
+                For man is man and master of his fate
+              </h1>
+              <p>
+                <span style="color: #0078ff">Web Design</span> / 18 Sep. 2019
+              </p>
+            </div>
+            <div style="width: 50%; text-align: right">
+              <i class="fa-solid fa-circle-plus font-a"></i>
+            </div>
+          </div>
         </div>
         <div class="background8">
-          <div class="margin-auto "><img class="image4" src="buoi11/work-2.jpg" alt=""></div>
-         <div class="padding row">
-          <div>
-
-            <h1 class="margin9 SUBTITLE">Loreda Cuno Nere</h1>
-            <p><span style="color: #0078ff;">Web Design</span> / 18 Sep. 2019</p>
+          <div class="margin-auto">
+            <img class="image4" src="/work-2.jpg" alt="" />
           </div>
-          <div style="width: 50%; text-align: right;"><i class="fa-solid fa-circle-plus font-a"></i></div> 
-         </div>  
+          <div class="padding row">
+            <div class="PORTFOLIO">
+              <h1 class="margin9 SUBTITLE">Loreda Cuno Nere</h1>
+              <p>
+                <span style="color: #0078ff">Web Design</span> / 18 Sep. 2019
+              </p>
+            </div>
+            <div style="width: 50%; text-align: right">
+              <i class="fa-solid fa-circle-plus font-a"></i>
+            </div>
+          </div>
         </div>
         <div class="background8">
-          <div class="margin-auto "><img class="image4" src="buoi11/work-3.jpg" alt=""></div>
-         <div class="padding row">
-          <div>
-
-            <h1 class="margin9 SUBTITLE">Mavrito Lana Dere</h1>
-            <p><span style="color: #0078ff;">Web Design</span> / 18 Sep. 2019</p>
+          <div class="margin-auto">
+            <img class="image4" src="/work-3.jpg" alt="" />
           </div>
-          <div style="width: 50%; text-align: right;"><i class="fa-solid fa-circle-plus font-a"></i></div> 
-         </div>  
-        </div>        
+          <div class="padding row">
+            <div class="PORTFOLIO">
+              <h1 class="margin9 SUBTITLE">Mavrito Lana Dere</h1>
+              <p>
+                <span style="color: #0078ff">Web Design</span> / 18 Sep. 2019
+              </p>
+            </div>
+            <div style="width: 50%; text-align: right">
+              <i class="fa-solid fa-circle-plus font-a"></i>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="row services-line">
+      <div class="row services-line mobile-column">
         <div class="background8">
-          <div class="margin-auto "><img class="image4" src="buoi11/work-4.jpg" alt=""></div>
-         <div class="padding row">
-          <div>
-
-            <h1 class="margin9 SUBTITLE">Bindo Laro Cado</h1>
-            <p><span style="color: #0078ff;">Web Design</span> / 18 Sep. 2019</p>
+          <div class="margin-auto">
+            <img class="image4" src="/work-4.jpg" alt="" />
           </div>
-          <div style="width: 50%; text-align: right;"><i class="fa-solid fa-circle-plus font-a"></i></div> 
-         </div>  
+          <div class="padding row">
+            <div class="PORTFOLIO">
+              <h1 class="margin9 SUBTITLE">Bindo Laro Cado</h1>
+              <p>
+                <span style="color: #0078ff">Web Design</span> / 18 Sep. 2019
+              </p>
+            </div>
+            <div style="width: 50%; text-align: right">
+              <i class="fa-solid fa-circle-plus font-a"></i>
+            </div>
+          </div>
         </div>
         <div class="background8">
-          <div class="margin-auto "><img class="image4" src="buoi11/work-5.jpg" alt=""></div>
-         <div class="padding row">
-          <div>
-
-            <h1 class="margin9 SUBTITLE">Studio Lena Mado</h1>
-            <p><span style="color: #0078ff;">Web Design</span> / 18 Sep. 2019</p>
+          <div class="margin-auto">
+            <img class="image4" src="/work-5.jpg" alt="" />
           </div>
-          <div style="width: 50%; text-align: right;"><i class="fa-solid fa-circle-plus font-a"></i></div> 
-         </div>  
+          <div class="padding row">
+            <div class="PORTFOLIO">
+              <h1 class="margin9 SUBTITLE">Studio Lena Mado</h1>
+              <p>
+                <span style="color: #0078ff">Web Design</span> / 18 Sep. 2019
+              </p>
+            </div>
+            <div style="width: 50%; text-align: right">
+              <i class="fa-solid fa-circle-plus font-a"></i>
+            </div>
+          </div>
         </div>
         <div class="background8">
-          <div class="margin-auto "><img class="image4" src="buoi11/work-6.jpg" alt=""></div>
-         <div class="padding row">
-          <div>
-
-            <h1 class="margin9 SUBTITLE">Studio Big Bang</h1>
-            <p><span style="color: #0078ff;">Web Design</span> / 18 Sep. 2019</p>
+          <div class="margin-auto">
+            <img class="image4" src="/work-6.jpg" alt="" />
           </div>
-          <div style="width: 50%; text-align: right;"><i class="fa-solid fa-circle-plus font-a"></i></div> 
-         </div>  
-        </div>        
+          <div class="padding row">
+            <div class="PORTFOLIO">
+              <h1 class="margin9 SUBTITLE">Studio Big Bang</h1>
+              <p>
+                <span style="color: #0078ff">Web Design</span> / 18 Sep. 2019
+              </p>
+            </div>
+            <div style="width: 50%; text-align: right">
+              <i class="fa-solid fa-circle-plus font-a"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="imageIV">
+      <div
+        class="tac"
+        style="
+          background-color: rgba(13, 100, 199, 0.5);
+          width: 100%;
+        "
+      >
+        <img class="image5" src="./testimonial-4.jpg" alt="" />
+        <h1 class="white margin2">MARTA SOCRATE</h1>
+        <p style="width: 50%" class="white margin-auto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+          veniam sit dignissimos, eum, assumenda necessitatibus ratione, sint
+          consectetur ipsam quam laudantium nemo? Nesciunt beatae reprehenderit
+          nam eius cum rerum quos!
+        </p>
+        <div
+          class=""
+          style="
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: white;
+            color: #0078ff;
+            line-height: 60px;
+            margin: 16px auto;
+          "
+        >
+          <i class="fa-solid fa-quote-right"></i>
+        </div>
+        <div>
+          <i class="fa-solid fa-minus white"></i>
+          <i class="fa-solid fa-minus black"></i>
+        </div>
+      </div>
+    </div>
+    <div id="blog" class="background">
+      <div class="tac">
+        <h1>BLOG</h1>
+        <p class="margin9">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </p>
+        <div class="background5 margin-auto"></div>
+      </div>
+      <div class="row services-line mobile-column">
+        <div class="background8">
+          <div class="margin-auto">
+            <img class="image4" src="/post-1.jpg" alt="" />
+          </div>
+          <div class="padding row">
+            <div>
+              <div class="rectangle">
+                <h3 class="white">Travel</h3>
+              </div>
+              <h1 class="margin9 SUBTITLE">See more ideas about Travel</h1>
+              <p class="blog-padding">
+                Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                dapibus. Praesent sapien massa, convallis a pellentesque nec,
+                egestas non nisi.
+              </p>
+            </div>
+          </div>
+          <div class="row rectangle2">
+            <img
+              class="logo"
+              src="buoi11/89dcd9ed59d16f7c77f001daa35c38e30b16c8dc.webp"
+              alt=""
+            />
+
+            <h3 class="width">Morgan Freeman</h3>
+            <i class="fa-solid fa-clock clock"></i>
+            <h3>10 min</h3>
+          </div>
+        </div>
+
+        <div class="background8">
+          <div class="margin-auto">
+            <img class="image4" src="/post-2.jpg" alt="" />
+          </div>
+          <div class="padding row">
+            <div>
+              <div>
+                <div class="rectangle">
+                  <h3 class="white">Travel</h3>
+                </div>
+                <h1 class="margin9 SUBTITLE">See more ideas about Travel</h1>
+                <p class="blog-padding">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                  dapibus. Praesent sapien massa, convallis a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row rectangle2">
+            <img
+              class="logo"
+              src="buoi11/89dcd9ed59d16f7c77f001daa35c38e30b16c8dc.webp"
+              alt=""
+            />
+
+            <h3 class="width">Morgan Freeman</h3>
+            <i class="fa-solid fa-clock clock"></i>
+            <h3>10 min</h3>
+          </div>
+        </div>
+        <div class="background8">
+          <div class="margin-auto">
+            <img class="image4" src="/post-3.jpg" alt="" />
+          </div>
+          <div class="padding row">
+            <div>
+              <div>
+                <div class="rectangle">
+                  <h3 class="white">Travel</h3>
+                </div>
+                <h1 class="margin9 SUBTITLE">See more ideas about Travel</h1>
+                <p class="blog-padding">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                  dapibus. Praesent sapien massa, convallis a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row rectangle2">
+            <img
+              class="logo"
+              src="buoi11/89dcd9ed59d16f7c77f001daa35c38e30b16c8dc.webp"
+              alt=""
+            />
+            <h3 class="width">Morgan Freeman</h3>
+            <i class="fa-solid fa-clock clock"></i>
+            <h3>10 min</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="imageIV" id="contact">
+      <div
+        style="
+          background-color: rgba(13, 100, 199, 0.5);
+          padding-top: 125px;
+          padding-bottom: 125px;
+        "
+      >
+        <div class="contact-table mobile-column">
+          <div class="send-message-us">
+            <div>
+              <h1>Send Message Us</h1>
+              <div class="background4">&nbsp;</div>
+            </div>
+            <input class="input" type="text" placeholder="Name" />
+            <input class="input" type="text" placeholder="Email" />
+            <input class="input" type="text" placeholder="Subject" />
+            <input class="input2" type="text" placeholder="Message" />
+            <button class="button"><span>Send Message</span></button>
+          </div>
+          <div  class="margin10">    
+            <div>
+              <h1>Get in Touch</h1>
+              <div class="background4">&nbsp;</div>
+            </div>
+            <p>
+              Sometimes we make the process more complicated than we need to. We
+              will never make a journey of a thousand miles by fretting about
+              how long it will take or how hard it will be. We make the journey
+              by taking each day step by step and then repeating it again and
+              again until we reach our destination.
+            </p>
+            <div class="get-in-touch">
+              <i class="fa-solid fa-location-dot fa-color"></i>
+              <p class="margin11">Hanoi</p>
+            </div>
+            <div class="get-in-touch">
+              <i class="fa-solid fa-phone fa-color"></i>
+              <p>(617) 557-0089</p>
+            </div>
+            <div class="get-in-touch">
+              <i class="fa-solid fa-envelope fa-color"></i>
+              <p>contact@example.com</p>
+            </div>
+            <div>
+              <i class="fa-brands fa-facebook-f circle fa-size"></i>
+              <i class="fa-brands fa-instagram circle fa-size"></i>
+              <i class="fa-brands fa-twitter circle fa-size"></i>
+              <i class="fa-brands fa-pinterest circle fa-size"></i>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <script
       src="https://kit.fontawesome.com/040dbc401b.js"
       crossorigin="anonymous"
     ></script>
+    <script src="main.js"></script>
   </body>
 </html>
