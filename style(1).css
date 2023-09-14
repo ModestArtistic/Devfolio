@@ -1,0 +1,221 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.image {
+	background: url("https://www.zastavki.com/pictures/originals/2013/_The_player_of_Real_Madrid_Cristiano_Ronaldo_in_dark_background_048657_.jpg");
+	padding-bottom: 20%;
+	background-attachment: fixed;
+	height: 700px;
+}
+.font {
+	padding: 15px 100px;
+	font-size: 25px;
+	color: #0078ff;
+	text-decoration: none;
+}
+.font2 {
+	color: #0078ff;
+	display: flex;
+	padding: 15px 100px;
+}
+.font2 p {
+	padding: 10px;
+}
+.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.background7 {
+	background-color: white;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 3);
+	z-index: 99;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.white {
+	color: white;
+}
+.font3 {
+	padding-top: 200px;
+	font-size: 30px;
+}
+.margin {
+	margin-bottom: 20px;
+}
+.background {
+	background-color: #f3f3f3;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.background2 {
+	background-color: white;
+	width: 80%;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 3);
+	padding: 65px 50px;
+	display: flex;
+}
+.image2 {
+	width: 150px;
+	height: 150px;
+}
+.margin2 {
+	margin-bottom: 16px;
+	margin-top: 16px;
+}
+.margin3 {
+	margin-bottom: 16px;
+	margin-top: 16px;
+}
+.margin4 {
+	margin-left: 30px;
+}
+.margin4 p {
+	opacity: 0.45;
+}
+.margin5 {
+	display: flex;
+}
+.margin6 {
+	margin-top: 30px;
+}
+.margin6 p {
+	margin-bottom: 10px;
+	opacity: 0.45;
+}
+.background3 {
+	height: 10px;
+	width: 100%;
+	background-color: #0078ff;
+}
+.background4 {
+	height: 3px;
+	width: 100px;
+	background-color: #0078ff;
+}
+.margin7 {
+	font-size: 20px;
+	margin-left: 20px;
+}
+.margin8 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.margin7 p {
+	margin-top: 70px;
+	opacity: 0.45;
+}
+.tac {
+	text-align: center;
+}
+.background5 {
+	height: 5px;
+	width: 40px;
+	background-color: #0078ff;
+}
+.margin-auto {
+	margin: auto;
+}
+.margin9 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.background6 {
+	border-radius: 5%;
+	background-color: white;
+	width: 30%;
+	padding: 10px 4px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	padding-bottom: 35px;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+.tv {
+	border-radius: 50%;
+	border: 8px solid #0078ff;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+}
+.fa-solid {
+	font-size: 30px;
+}
+.services-line {
+	width: 100%;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.SUBTITLE {
+	font-size: 20px;
+}
+.image3 {
+	width: 100%;
+	height: 500px;
+	background-image: url("./counters-bg.jpg");
+	background-attachment: fixed;
+}
+.stats {
+	font-size: 70px;
+}
+.image4 {
+	width: 100%;
+}
+.background8 {
+	background-color: white;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	/* padding-bottom: 35px; */
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+.padding {
+	padding-left: 10px;
+}
+.font-a {
+	color: #0078ff;
+	padding-right: 10px;
+}
+.imageIV {
+	width: 100%;
+	height: 500px;
+	background-image: url("./overlay-bg.jpg");
+	background-attachment: fixed;
+}
+.image5 {
+	border-radius: 50%;
+	margin: auto;
+	margin-top: 100px;
+}
+.black {
+	color: black;
+}
+.rectangle {
+	width: fit-content;
+	padding: 4px 15px;
+	background-color: #0078ff;
+	border-radius: 5px;
+	margin: auto;
+	position: relative;
+	top: -20px;
+	/* left: 50%; */
+	/* transform: translateX(-50%); */
+}
+.rectangle2 {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: solid 1px;

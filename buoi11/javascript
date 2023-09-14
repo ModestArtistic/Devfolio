@@ -1,0 +1,5 @@
+font2
+
+font.classList.add()
+font.classList.remove()
+font.classList.toggle()

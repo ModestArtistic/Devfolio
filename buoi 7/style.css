@@ -1,0 +1,294 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #1ecbf4;
+}
+.main {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  background-color: #1ecbf4;
+}
+
+.header {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.input {
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  color: white;
+  border: 0;
+  background-color: red;
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+}
+.input {
+  border: 0;
+  background-color: white;
+  height: 40px;
+  width: 400px;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.text2 {
+  
+  text-align: center;
+}
+.title {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 16px;
+}
+.p {
+  font-size: 20px;
+}
+.fa-solid {
+  font-size: 200px;
+  margin-right: 80px;
+  margin-left: 80px;
+  color: #1ecbf4;
+
+}
+.myClass {
+  padding: 0px 20px;
+  margin-top: 50px;
+}
+.button2 {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    border-radius: 10px;
+    border: 0;
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.margin {
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.margin2 {
+    margin-bottom: 30px;
+    font-size: 25px;
+    
+
+}
+.myClass2 {
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+}
+.title2 {
+    flex-direction: row;
+    display: flex;
+    margin-top: 100px
+}
+.margin3 {
+  margin-top: 30px;
+  text-align: center;
+
+}
+.margin4 {
+  margin-top: 30px;
+  text-align: center;
+}
+.logo i {
+  font-size: 50px;
+}
+.line {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.margin5 {
+  margin: 40px 20px;
+  text-align: center;
+}
+.margin6 {
+  margin: 40px 30px ;
+  font-size: 25px;
+}
+.margin7 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.margin8 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; 
+
+}
+.photo {
+  width: 400px;
+  margin-top: 30px;
+}
+.margin9 {
+  text-align: center;
+  width: 400px;
+  margin-top: 20px;
+}
+.row  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.word{
+  text-align: center;
+  margin-top: 40px;
+}
+.comment {
+  background-color: #f6f6f6;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  align-items: center;
+}
+.size {
+  font-size: 20px;
+  text-align: center;
+}
+.flex {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.fa-circle {
+  margin-left: 5px;
+  color: #1ecbf4;
+}
+.margin10 {
+  margin-top: 100px;
+  text-align: center;
+}
+.margin11 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.color {
+  width: 27%;
+  text-align: center;
+  border: 1px solid #1ecbf4;
+  margin-left: 5%;
+}
+.color2 {
+  line-height: 100px;
+  color: white;
+  background-color: #1ecbf4;
+
+}
+.line2 {
+  margin-top: 30px;
+  border-bottom: 1px solid #1ecbf4;
+}
+.line2 li{
+  list-style: none;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.thang {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.nut {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: white;
+  background-color: #1ecbf4;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+.color:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 3);
+}
+.row2 {
+  display: flex;
+  flex-direction: row;
+}
+.margin12 {
+  text-align: center;
+}
+.color3 {
+  background-color: #f3f3f3;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.my-fa {
+  color: black;
+  font-size: 18px;
+}
+.input2 {
+  padding: 10px;
+  width: 100%;
+}
+.button3{
+  background-color: white;
+  border: none;
+  padding: 10px;
+}
+.margin13 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 45px;
+}
+.margin13 input {
+  width: 45%; 
+}
+.color4 {
+  background-color: #f3f3f3;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+.margin14 p{
+  margin-left: 40px;
+
+}
+.margin14 i {
+  margin: 8px;
+  margin-left: -1px;
+}
+.margin15 {
+  margin-top: 30%;
+  margin-bottom: 10%;
+  text-align: center;
+}
+.input3{
+  margin-left: 39px;
+}
